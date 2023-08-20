@@ -11,6 +11,7 @@ public class Client {
     public Socket socket;
     public BufferedReader bufferedReader;
     public BufferedWriter bufferedWriter;
+    // Username
     private String username;
 
     public Client(Socket socket, String username){
